@@ -6,6 +6,10 @@ This project analyzes Airbnb listings in New York City to support new hosts in c
 
 The final output is an interactive Tableau dashboard designed to help users compare market segments, evaluate pricing levels, and identify attractive entry opportunities for new Airbnb hosts.
 
+## Dashboard Preview
+
+![Dashboard Preview](screenshots/dashboard_preview.png)
+
 ## Business Problem
 
 New Airbnb hosts often face uncertainty when setting the initial price for their listings. Pricing too high may reduce demand, while pricing too low may limit revenue potential. The goal of this project is to answer the following business question:
@@ -153,20 +157,17 @@ For new Airbnb hosts, the most effective entry strategy is not to maximize price
 ```text
 .
 ├── README.md
-├── Projekt.twbx
-├── presentation/
-│   └── Projekt Paweł Orłowski.pptx
-├── instructions/
-│   └── Projekt końcowy - instrukcje.docx
+├── airbnb_nyc_pricing_strategy_dashboard.twbx
 ├── screenshots/
 │   └── dashboard_preview.png
-└── src/
-    └── airbnb_analysis.py
+├── presentation/
+│   └── airbnb_nyc_dashboard_guide_pl.pptx
+└── instructions/
+    └── project_instructions_pl.docx
 ```
 
-Suggested files to add before publishing the repository:
+Optional files to add later:
 
-- `dashboard_preview.png` – screenshot of the main Tableau dashboard,
 - `airbnb_analysis.py` or `analysis.ipynb` – Python analysis script or notebook,
 - `requirements.txt` – Python dependencies if Python code is included,
 - `.gitignore` – to exclude temporary files and local system files.
